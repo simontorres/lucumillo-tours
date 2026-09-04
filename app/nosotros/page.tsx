@@ -9,7 +9,7 @@ const About = () => {
       <main className="flex-grow container mx-auto p-4">
         <div className='p-4'>
           <h1 className="text-justify text-3xl font-bold my-8">
-            Lucumillo Experience
+            Lucumillo Tours
           </h1>
           <p className="text-justify dark:text-gray-300 mb-8">
           Ofrecemos tours personalizados para observar ballenas y ver el cielo nocturno en el norte de Chile.
