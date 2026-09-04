@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lucumillo Experience",
+  title: "Lucumillo Tours",
   description: "Personalized Tours in La Serena",
 };
 
