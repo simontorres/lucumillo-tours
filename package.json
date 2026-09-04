@@ -1,8 +1,8 @@
 {
-  "name": "lucumillo-experience",
+  "name": "lucumillo-tours",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.lucumilloexperience.cl",
+  "homepage": "https://www.lucumillotours.cl",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
