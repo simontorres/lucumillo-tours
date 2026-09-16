@@ -27,6 +27,6 @@ export const services: Service[] = [
       { src: "/images/services/xs/bicycles_001.webp", alt: "" },
       { src: "/images/services/xs/bicycles_002.webp", alt: "" },
     ],
-    enabled: true,
+    enabled: false,
   },
 ];
