@@ -11,7 +11,7 @@ export const Footer = () => {
             </div>
             
             <div className='bg-[#FF4A1C] text-white p-4 m-0 text-center'>
-                <p>&copy; {new Date().getFullYear()} Lucumillo Experience. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Lucumillo Tours. All rights reserved.</p>
             </div>
             
         </footer>

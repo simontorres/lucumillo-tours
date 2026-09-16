@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex items-center gap-8">
           {/* Logo */}
           <Link href="/">
-            <p className="text-2xl font-bold cursor-pointer">Lucumillo Experience</p>
+            <p className="text-2xl font-bold cursor-pointer">Lucumillo Tours</p>
           </Link>
 
           {/* Nav Elements (Visible Only on Medium+ Screens) */}

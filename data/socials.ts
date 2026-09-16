@@ -9,8 +9,8 @@ export const socials: Social[] = [
     },
     {
         name: 'instagram',
-        value: 'lucumillo_experience',
-        full_url: 'https://www.instagram.com/lucumillo_experience',
+        value: 'lucumillo_tours',
+        full_url: 'https://www.instagram.com/lucumillo_tours',
         enabled: true
     },
     {

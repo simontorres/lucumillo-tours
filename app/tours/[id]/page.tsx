@@ -35,9 +35,9 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
         <h1 className="text-4xl font-bold text-center my-8">
           {tour.title}
         </h1>
-        <p className="text-center dark:text-gray-300 mb-8">
+        <div className="text-center dark:text-gray-300 mb-8">
           {tour.long_description.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-        </p>
+        </div>
         <div>
           <p><b>Que se incluye:</b> { tour.includes }</p>
 

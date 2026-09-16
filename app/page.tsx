@@ -11,7 +11,7 @@ const HomePage = () => {
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow container mx-auto p-4">
         <h1 className="text-4xl font-bold text-center my-8">
-          Bienvenido a Lucumillo Experience
+          Bienvenido a Lucumillo Tours
         </h1>
         <p className="text-center dark:text-gray-300 mb-8">
           Ofrecemos tours personalizados para la observación de ballenas y para
