@@ -39,13 +39,13 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
           {tour.long_description.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
         <div>
-          <p><b>Que se incluye:</b> { tour.includes }</p>
+          <p><b>What is included:</b> { tour.includes }</p>
 
-          { tour.price ? <p><b>Precio: </b> { formatCurrency(tour.price, 'es-CL', 'CLP')}</p>: <></>}
+          { tour.price ? <p><b>Price: </b> { formatCurrency(tour.price, 'es-CL', 'CLP')}</p>: <></>}
           
-          <p><b>Asientos: </b> {tour.seats}</p>
-          <p><b>Lugar de Partida:</b> {tour.departing_place}</p>
-          <p><b>Hora de Partida:</b> { tour.departing_time ? tour.departing_time : 'Por definir' }</p>
+          <p><b>Seats: </b> {tour.seats}</p>
+          <p><b>Departure Location:</b> {tour.departing_place}</p>
+          <p><b>Departure Time:</b> { tour.departing_time ? tour.departing_time : 'To be defined' }</p>
         </div>
         <AnimatedGallery images={tour.gallery} subpath='tours'/>
       </main>

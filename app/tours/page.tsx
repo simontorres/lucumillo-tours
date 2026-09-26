@@ -14,13 +14,13 @@ const HomePage = () => {
 
       <main className="flex-grow container mx-auto p-4">
         <div>
-          <Link href='/'>Volver al inicio</Link>
+          <Link href='/'>Back to home</Link>
         </div>
         <h1 className="text-4xl font-bold text-center my-8">
           Tours
         </h1>
         <p className="text-center dark:text-gray-300 mb-8">
-        Ofrecemos tours personalizados para la observación de ballenas y para disfrutar del cielo nocturno en el norte de Chile.
+        We offer personalized tours for whale watching and stargazing in northern Chile.
         </p>
         <ToursGrid tours={tours} />
       </main>

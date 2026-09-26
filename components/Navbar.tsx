@@ -21,14 +21,11 @@ export default function Navbar() {
             <Link href="/tours">
               <p className="hover:underline cursor-pointer">Tours</p>
             </Link>
-            <Link href="/arriendo-de-bicicletas">
-              <p className="hover:underline cursor-pointer">Arriendo de Bicicletas</p>
-            </Link>
             <Link href="/nosotros">
-              <p className="hover:underline cursor-pointer">Nosotros</p>
+              <p className="hover:underline cursor-pointer">About Us</p>
             </Link>
             <Link href="/contacto">
-              <p className="hover:underline cursor-pointer">Contacto</p>
+              <p className="hover:underline cursor-pointer">Contact</p>
             </Link>
           </div>
         </div>
@@ -70,14 +67,11 @@ export default function Navbar() {
           <Link href="/tours">
             <p className="px-4 py-2 hover:bg-lime-700">Tours</p>
           </Link>
-          <Link href="/arriendo-de-bicicletas">
-            <p className="px-4 py-2 hover:bg-lime-700">Arriendo de Bicicletas</p>
-          </Link>
           <Link href="/nosotros">
-            <p className="px-4 py-2 hover:bg-lime-700">Nosotros</p>
+            <p className="px-4 py-2 hover:bg-lime-700">About Us</p>
           </Link>
           <Link href="/contacto">
-            <p className="px-4 py-2 hover:bg-lime-700">Contacto</p>
+            <p className="px-4 py-2 hover:bg-lime-700">Contact</p>
           </Link>
         </div>
       </div>
