@@ -12,25 +12,25 @@ const About = () => {
             Lucumillo Tours
           </h1>
           <p className="text-justify dark:text-gray-300 mb-8">
-          Ofrecemos tours personalizados para observar ballenas y ver el cielo nocturno en el norte de Chile.
+          We offer personalized tours for whale watching and stargazing in northern Chile.
           </p>
         </div>
 
         <div className='mb-8 p-4'>
-          <h2 className='text-justify text-2xl font-bold'>Porqué Lucumillo?</h2>
+          <h2 className='text-justify text-2xl font-bold'>Why Lucumillo?</h2>
           <p className='text-justify text-lg dark:text-gray-300'>
-          El nombre Lucumillo proviene de Myrcianthes coquimbensis, un arbusto raro y en peligro de extinción, nativo de los desiertos costeros de Chile. Su distribución es muy limitada, abarcando solo unos pocos cientos de kilómetros en la región de Coquimbo, donde crece entre grandes rocas de granito, alimentado por las frescas y húmedas brisas del océano Pacífico. El arbusto Lucumillo está profundamente ligado a este ecosistema único, dependiendo de condiciones ambientales específicas y enfrentando amenazas debido a la pérdida de hábitat causada por el desarrollo urbano y el turismo.
+          The name Lucumillo comes from Myrcianthes coquimbensis, a rare and endangered shrub native to Chile's coastal deserts. Its distribution is very limited, spanning only a few hundred kilometers in the Coquimbo region, where it grows among large granite boulders, nourished by the cool, moist breezes of the Pacific Ocean. The Lucumillo shrub is deeply tied to this unique ecosystem, depending on specific environmental conditions and facing threats from habitat loss caused by urban development and tourism.
           </p>
           <p className='text-justify text-lg dark:text-gray-300'>
-          Elegimos este nombre para honrar la resistencia del Lucumillo, que, a pesar de su fragilidad, prospera en las duras condiciones del desierto costero chileno. Al adoptar este nombre, esperamos generar conciencia sobre la importancia de conservar tanto la especie como su delicado hábitat. De este modo, buscamos contribuir a la protección de esta extraordinaria parte del patrimonio natural de Chile.
+          We chose this name to honor the resilience of the Lucumillo, which, despite its fragility, thrives in the harsh conditions of the Chilean coastal desert. By adopting this name, we hope to raise awareness about the importance of conserving both the species and its delicate habitat. In this way, we seek to contribute to the protection of this extraordinary part of Chile's natural heritage.
           </p>
         </div>
 
         {/* OUR GUIDES */}
 
         <div className='mb-8 p-4'>
-          <h2 className='text-justify text-2xl font-bold'>Nuestros Guías</h2>
-          <p>Colaboramos principalmente con guías locales especializados proporcionados por los sitios que visitamos, asegurando que disfrutes de un conocimiento auténtico y privilegiado. Además, nuestro equipo incluye guías con diversas especialidades e intereses, desde entusiastas de la vida silvestre hasta expertos en astronomía, apasionados por compartir sus perspectivas y conocimientos únicos. Juntos, buscamos ofrecerte una conexión más profunda con los lugares que exploras.</p>
+          <h2 className='text-justify text-2xl font-bold'>Our Guides</h2>
+          <p>We work primarily with specialized local guides provided by the sites we visit, ensuring you enjoy authentic, first-hand knowledge. In addition, our team includes guides with diverse specialties and interests, from wildlife enthusiasts to astronomy experts, all passionate about sharing their unique perspectives and knowledge. Together, we aim to offer you a deeper connection with the places you explore.</p>
         </div>
 
       </main>
