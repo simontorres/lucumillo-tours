@@ -19,10 +19,10 @@ const About = () => {
         <div className='mb-8 p-4'>
           <h2 className='text-justify text-2xl font-bold'>Why Lucumillo?</h2>
           <p className='text-justify text-lg dark:text-gray-300'>
-          The name Lucumillo comes from Myrcianthes coquimbensis, a rare and endangered shrub native to Chile's coastal deserts. Its distribution is very limited, spanning only a few hundred kilometers in the Coquimbo region, where it grows among large granite boulders, nourished by the cool, moist breezes of the Pacific Ocean. The Lucumillo shrub is deeply tied to this unique ecosystem, depending on specific environmental conditions and facing threats from habitat loss caused by urban development and tourism.
+          The name Lucumillo comes from Myrcianthes coquimbensis, a rare and endangered shrub native to Chile&apos;s coastal deserts. Its distribution is very limited, spanning only a few hundred kilometers in the Coquimbo region, where it grows among large granite boulders, nourished by the cool, moist breezes of the Pacific Ocean. The Lucumillo shrub is deeply tied to this unique ecosystem, depending on specific environmental conditions and facing threats from habitat loss caused by urban development and tourism.
           </p>
           <p className='text-justify text-lg dark:text-gray-300'>
-          We chose this name to honor the resilience of the Lucumillo, which, despite its fragility, thrives in the harsh conditions of the Chilean coastal desert. By adopting this name, we hope to raise awareness about the importance of conserving both the species and its delicate habitat. In this way, we seek to contribute to the protection of this extraordinary part of Chile's natural heritage.
+          We chose this name to honor the resilience of the Lucumillo, which, despite its fragility, thrives in the harsh conditions of the Chilean coastal desert. By adopting this name, we hope to raise awareness about the importance of conserving both the species and its delicate habitat. In this way, we seek to contribute to the protection of this extraordinary part of Chile&apos;s natural heritage.
           </p>
         </div>
 
