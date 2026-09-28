@@ -8,7 +8,6 @@ interface Partner {
 }
 
 const partners: Partner[] = [
-    { name: "Hostal Luna del Mar", logo: "/images/friends/luna-del-mar.webp", website: "https://www.instagram.com/hostallunadelmar" },
     { name: "Arena Cafe", logo: "/images/friends/arena-cafe.webp", website: "https://www.instagram.com/arenacafelaserena" },
     // { name: "Partner Three", logo: "https://placehold.co/300", website: "https://partner3.com" },
 ];
@@ -16,7 +15,7 @@ const partners: Partner[] = [
 export const OurPartnersAndFriends = () => {
     return (
         <div className="flex-1 p-6">
-            <h2 className="text-2xl font-bold mb-4 text-center">Nuestros Socios y Amigos</h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">Business Partners and Friends</h2>
             <div className="flex justify-evenly items-start gap-6 pt-6">
                 {partners.map((partner) => (
                     <a
