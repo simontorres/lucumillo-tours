@@ -39,7 +39,7 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
           {tour.long_description.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
         <div>
-          <p><b>What is included:</b> { tour.includes }</p>
+          { tour.includes ? <p><b>What is included:</b> { tour.includes }</p>: <></>}
 
           { tour.price ? <p><b>Price: </b> { formatCurrency(tour.price, 'es-CL', 'CLP')}</p>: <></>}
           
