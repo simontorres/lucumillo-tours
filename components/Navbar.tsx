@@ -21,10 +21,10 @@ export default function Navbar() {
             <Link href="/tours">
               <p className="hover:underline cursor-pointer">Tours</p>
             </Link>
-            <Link href="/nosotros">
+            <Link href="/about-us">
               <p className="hover:underline cursor-pointer">About Us</p>
             </Link>
-            <Link href="/contacto">
+            <Link href="/contact">
               <p className="hover:underline cursor-pointer">Contact</p>
             </Link>
           </div>
@@ -67,10 +67,10 @@ export default function Navbar() {
           <Link href="/tours">
             <p className="px-4 py-2 hover:bg-lime-700">Tours</p>
           </Link>
-          <Link href="/nosotros">
+          <Link href="/about-us">
             <p className="px-4 py-2 hover:bg-lime-700">About Us</p>
           </Link>
-          <Link href="/contacto">
+          <Link href="/contact">
             <p className="px-4 py-2 hover:bg-lime-700">Contact</p>
           </Link>
         </div>
